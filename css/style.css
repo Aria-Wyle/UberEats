@@ -231,7 +231,8 @@ hr {
 .restaurant {
   height: 364px;
   margin-top: 72px;
-  background: url("photo.jpg") center no-repeat;
+  /* background: url("photo.jpg") center no-repeat; */
+  background-color: black;
   background-size: cover;
   display: flex;
 }
