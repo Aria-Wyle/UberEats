@@ -21,18 +21,18 @@ body {
   background-color: white;
   z-index: 3;
 }
-.header__container {
+.header-container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto; /*выравниваем контейнер по центру*/
 }
-.header__button-menu {
+.header-button-menu {
   display: flex;
   align-items: center;
 }
-.button__sign-in {
+.button-sign-in {
   margin-right: 27px;
   font-weight: 500;
   font-size: 13px;
@@ -48,28 +48,28 @@ body {
 .logo {
   padding: 0 8px;
 }
-.page__content {
+.page-content {
   margin: 104px auto 0; /*выравниваем контейнер по центру */
 }
-.search__panel {
+.search-panel {
   border-bottom: 1px solid;
   margin-bottom: 56px;
   margin-left: 8px;
   margin-right: 8px;
 }
-.search__input {
+.search-input {
   width: 100%;
   height: 48px;
   border-top: none;
   border-left: none;
   border-right: none;
 }
-.name__heading {
+.name-heading {
   font-size: 22px;
   line-height: 34px;
   margin-bottom: 16px;
 }
-.cards__container {
+.cards-container {
   margin-bottom: 64px;
 }
 .card {
@@ -81,18 +81,18 @@ body {
 .card:hover {
   background-color: #d8d8d8;
 }
-.image__card {
+.image-card {
   /*родителю задаем следующие параметры, чтобы при наведении на картинку она увеличивалась*/
   display: inline-block; /*делаем строчно-блочным*/
   overflow: hidden;
   width: 100%;
   margin-bottom: 16px;
 }
-.image__card img {
+.image-card img {
   transition: 1s; /*время эффекта*/
   display: block;
 }
-.image__card img:hover {
+.image-card img:hover {
   transform: scale(1.1); /*увеличиваем масштаб*/
 }
 .card-title {
@@ -104,6 +104,9 @@ body {
   color: #626262;
   margin: 0 0 4px;
 }
+.image-card-chapter {
+  max-width: 100%;
+}
 .time-cooking {
   margin: 0 0 20px;
   font-size: 13px;
@@ -112,10 +115,10 @@ body {
 .footer {
   background: #262626;
 }
-.footer__body {
+.footer-body {
   padding-top: 56px;
 }
-.logo__footer {
+.logo-footer {
   margin-bottom: 41px;
   max-width: 100%;
 }
@@ -135,7 +138,7 @@ hr {
   height: 40px;
   margin-bottom: 33px;
 }
-.image__select {
+.image-select {
   margin: 0 auto;
 }
 .select {
@@ -148,7 +151,7 @@ hr {
   border: none;
   border-radius: 1.98221px;
 }
-.uber__text {
+.uber-text {
   margin-bottom: 17px;
 }
 .link-uber {
@@ -161,7 +164,7 @@ hr {
 }
 
 .lattice,
-.UberEats__text {
+.UberEats-text {
   margin: 0;
   font-size: 15.8577px;
   line-height: 19px;
@@ -169,7 +172,7 @@ hr {
 .lattice {
   color: #49a144;
 }
-.UberEats__text {
+.UberEats-text {
   color: #fff;
 }
 .icons {
@@ -180,16 +183,16 @@ hr {
   margin-right: 10px;
 }
 
-.partners__link {
+.partners-link {
   text-decoration: none;
 }
-.partners__text {
+.partners-text {
   margin-bottom: 23px;
   color: #fff;
   font-size: 12.8843px;
   line-height: 15px;
 }
-.partners__text:hover {
+.partners-text:hover {
   text-decoration: underline;
 }
 .download {
@@ -201,7 +204,7 @@ hr {
   justify-content: center;
   align-items: center;
 }
-.store_image {
+.store-image {
   max-width: 100%;
 }
 .personal {
@@ -210,16 +213,16 @@ hr {
 .info {
   justify-content: space-between;
 }
-.personal__link {
+.personal-link {
   text-decoration: none;
 }
-.personal__text {
+.personal-text {
   font-size: 11px;
   line-height: 13px;
   color: #fff;
   margin-bottom: 24px;
 }
-.personal__text:hover {
+.personal-text:hover {
   text-decoration: underline;
 }
 
@@ -244,7 +247,7 @@ hr {
   box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
   border-radius: 2px;
 }
-.main__name {
+.main-name {
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
